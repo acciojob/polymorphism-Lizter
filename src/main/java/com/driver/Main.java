@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         Product p = new Product();
-        p.product(20, 30);
-        p.product(20, 30, 40);
-        p.product(10.5, 9.9);
+        int ans=p.product(20, 30);
+        int ans1=p.product(20, 30, 40);
+        double ans2=p.product(10.5, 9.9);
+        System.out.println(ans+" " + ans1 + " "+ ans2);
     }
 }
     class Product{
